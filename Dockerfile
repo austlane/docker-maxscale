@@ -12,4 +12,4 @@ RUN		echo "deb http://downloads.mariadb.com/enterprise/6whk-mygr/mariadb-maxscal
 		apt-get autoremove --yes && \
 		rm -rf /var/lib/{apt,dpkg,cache,log}/
 
-CMD ["bash"]
+CMD		["/usr/bin/maxscale", "-d"]

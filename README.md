@@ -4,7 +4,9 @@
 
 ## Example run
 
+```bash
 docker run -d -v /path/to/your/maxscale.cnf:/etc/maxscale.cnf hauptmedia/maxscale
+```
 
 ## Documentation
 

@@ -8,6 +8,18 @@
 docker run -d -v /path/to/your/maxscale.cnf:/etc/maxscale.cnf hauptmedia/maxscale
 ```
 
+## Administrative Login
+
+Please note that by default the login credentials are `admin` / `mariadb`. You can specify other login credentials using
+
+```bash
+maxadmin -pmariadb add user <username> <password>
+``` 
+
+This will automatically deactivate the built in `admin` user account.
+
+The Admin CLI users will be saved into the `/var/lib/maxscale/passwd` file, which can be also provided as volume to this container.
+
 ## Documentation
 
 Available at https://github.com/mariadb-corporation/MaxScale/blob/master/Documentation

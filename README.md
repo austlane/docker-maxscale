@@ -12,3 +12,5 @@ docker run -d -v /path/to/your/maxscale.cnf:/etc/maxscale.cnf hauptmedia/maxscal
 
 Available at https://github.com/mariadb-corporation/MaxScale/blob/master/Documentation
 
+Documentation for the `maxadmin` administration tool can be found at https://github.com/mariadb-corporation/MaxScale/blob/master/Documentation/Reference/MaxAdmin.md
+

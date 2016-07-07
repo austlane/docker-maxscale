@@ -5,7 +5,7 @@
 ## Example run
 
 ```bash
-docker run -d -v /path/to/your/maxscale.cnf:/etc/maxscale.cnf hauptmedia/maxscale
+docker run -d -v /path/to/your/maxscale.cnf:/etc/maxscale.cnf austlane/maxscale
 ```
 
 ## Administrative Login

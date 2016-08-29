@@ -2,7 +2,7 @@ FROM		debian:jessie
 MAINTAINER	Austin Lane <austin@sellerlabs.com>
 
 ENV		DEBIAN_FRONTEND noninteractive
-ENV		MAXSCALE_VERSION 1.4.3
+ENV		MAXSCALE_VERSION 2.0.0
 
 RUN		echo "deb http://downloads.mariadb.com/enterprise/6whk-mygr/mariadb-maxscale/${MAXSCALE_VERSION}/debian jessie main" | tee -a /etc/apt/sources.list.d/maxscale.list && \
 		apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 8167EE24 && \
